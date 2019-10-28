@@ -57,30 +57,7 @@
             <IsEnabled>false</IsEnabled>
             <Properties/>
           </LocalAuthenticatorConfig>
-        </LocalAuthenticatorConfigs>
-        <FederatedIdentityProviders>
-          <FederatedIdentityProvider>
-            <IdentityProviderName>facbookIdp</IdentityProviderName>
-            <IsPrimary>false</IsPrimary>
-            <IsFederationHub>false</IsFederationHub>
-            <IsEnabled>false</IsEnabled>
-            <FederatedAuthenticatorConfigs>
-              <FederatedAuthenticatorConfig>
-                <Name>FacebookAuthenticator</Name>
-                <DisplayName>facebook</DisplayName>
-                <IsEnabled>false</IsEnabled>
-                <Properties/>
-              </FederatedAuthenticatorConfig>
-            </FederatedAuthenticatorConfigs>
-            <DefaultAuthenticatorConfig>
-              <Name>FacebookAuthenticator</Name>
-              <DisplayName>facebook</DisplayName>
-              <IsEnabled>false</IsEnabled>
-              <Properties/>
-            </DefaultAuthenticatorConfig>
-            <ProvisioningConnectorConfigs/>
-          </FederatedIdentityProvider>
-        </FederatedIdentityProviders>
+        </LocalAuthenticatorConfigs>     
         <SubjectStep>true</SubjectStep>
         <AttributeStep>true</AttributeStep>
       </AuthenticationStep>
