@@ -136,20 +136,6 @@
         <value>test_pernission_2</value>
       </ApplicationPermission>
     </Permissions>
-    <RoleMappings>
-      <RoleMapping>
-        <localRole>
-          <LocalRoleName>local_role</LocalRoleName>
-        </localRole>
-        <remoteRole>sp_role_1</remoteRole>
-      </RoleMapping>
-      <RoleMapping>
-        <localRole>
-          <LocalRoleName>local_role_2</LocalRoleName>
-        </localRole>
-        <remoteRole>sp_role_2</remoteRole>
-      </RoleMapping>
-    </RoleMappings>
     <IdpRoles/>
   </PermissionAndRoleConfig>
   <IsSaaSApp>false</IsSaaSApp>
