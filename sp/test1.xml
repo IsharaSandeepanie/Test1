@@ -60,7 +60,7 @@
         </LocalAuthenticatorConfigs>
         <FederatedIdentityProviders>
           <FederatedIdentityProvider>
-            <IdentityProviderName>facbookIdp1</IdentityProviderName>
+            <IdentityProviderName>facbookIdp</IdentityProviderName>
             <IsPrimary>false</IsPrimary>
             <IsFederationHub>false</IsFederationHub>
             <IsEnabled>false</IsEnabled>
@@ -162,7 +162,7 @@
     <RoleMappings>
       <RoleMapping>
         <localRole>
-          <LocalRoleName>local_role_1</LocalRoleName>
+          <LocalRoleName>local_role</LocalRoleName>
         </localRole>
         <remoteRole>sp_role_1</remoteRole>
       </RoleMapping>
