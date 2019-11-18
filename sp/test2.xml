@@ -76,7 +76,9 @@
     <UseTenantDomainInUsername>false</UseTenantDomainInUsername>
     <UseUserstoreDomainInUsername>false</UseUserstoreDomainInUsername>
     <EnableAuthorization>false</EnableAuthorization>
-    <AuthenticationScript enabled="true" language="application/javascript"><![CDATA[function onInitialRequest(context) {
+    <AuthenticationScript enabled="true" language="application/javascript"><![CDATA[
+// Edited
+function onInitialRequest(context) {
   executeStep(1, {
 	onSuccess: function (context) {
 	  var subject = context.steps[1].subject;
