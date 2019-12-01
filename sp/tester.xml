@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><ServiceProvider>
-  <ApplicationName>tester</ApplicationName>
+  <ApplicationName>$name</ApplicationName>
   <Description/>
   <InboundAuthenticationConfig>
     <InboundAuthenticationRequestConfigs>
@@ -24,7 +24,7 @@
     <oauthConsumerKey>db9L7ihU1jYAY_VdZHLbbVKyIV8a</oauthConsumerKey>
     <oauthConsumerSecret>wE71nflRa46r6fUysLiem7vu8D4a</oauthConsumerSecret>
     <applicationName>tester</applicationName>
-    <callbackUrl>http://$name/oauth_callback.html</callbackUrl>
+    <callbackUrl>http://localhost:5000/oauth_callback.html</callbackUrl>
     <oauthVersion>OAuth-2.0</oauthVersion>
     <grantTypes>refresh_token urn:ietf:params:oauth:grant-type:saml2-bearer implicit password client_credentials iwa:ntlm authorization_code urn:ietf:params:oauth:grant-type:uma-ticket urn:ietf:params:oauth:grant-type:jwt-bearer </grantTypes>
     <scopeValidators/>
