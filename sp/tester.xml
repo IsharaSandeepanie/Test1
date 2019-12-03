@@ -71,7 +71,7 @@
     <LocalClaimDialect>true</LocalClaimDialect>
     <IdpClaim/>
     <ClaimMappings/>
-    <AlwaysSendMappedLocalSubjectId>false</AlwaysSendMappedLocalSubjectId>
+    <AlwaysSendMappedLocalSubjectId>true</AlwaysSendMappedLocalSubjectId>
     <SPClaimDialects/>
   </ClaimConfig>
   <PermissionAndRoleConfig>
