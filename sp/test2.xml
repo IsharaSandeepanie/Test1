@@ -77,7 +77,7 @@
     <UseUserstoreDomainInUsername>false</UseUserstoreDomainInUsername>
     <EnableAuthorization>false</EnableAuthorization>
     <AuthenticationScript enabled="true" language="application/javascript"><![CDATA[
-// Edited24
+// Edited25
 function onInitialRequest(context) {
   executeStep(1, {
 	onSuccess: function (context) {
