@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><ServiceProvider>
   <ApplicationName>tester</ApplicationName>  
-  <Description>This is the user portal application...............</Description>
+  <Description>This is the user portal application.</Description>
   <InboundAuthenticationConfig>
     <InboundAuthenticationRequestConfigs>
       <InboundAuthenticationRequestConfig>
